@@ -94,10 +94,10 @@ Baby.prototype.play = function() {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Gloabl -- just console logging the keyword `this` would log the window object. It would essentially log all JS attributes and methods that exists.
+  2. New -- binds an object to a variable. Must be use everytime you instantiate an object. (i.e., const me = new Person('name', 'age');)
+  3. Implicit -- implicit binding sets the attrs and methods of the object to the instance made. In the example above, we would retrieve the age by logging me.age; with `me` being implicitly `this`
+  4. Explicit -- this happens when we use the call or apply methods. It explicitly sets the this keyword the object pass as an argument
 */
 
 ///////// END OF CHALLENGE /////////
